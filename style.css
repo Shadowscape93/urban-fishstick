@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  background-color: darkgray;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+#player, #key, #ghost, #door {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#player {
+  background-color: blue;
+  bottom: 10px;
+  left: 10px;
+}
+
+#key {
+  background-color: gold;
+  top: 50px;
+  right: 50px;
+}
+
+#ghost {
+  background-color: red;
+  top: 200px;
+  left: 200px;
+}
+
+#door {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#message {
+  display: none;
+  font-size: 24px;
+}
